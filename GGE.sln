@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GGE", "GGE\GGE.vcxproj", "{521627CE-14A0-4BAF-88EB-1F7C7E499A71}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "basic_usage", "basic_usage\basic_usage.vcxproj", "{F41FD4B8-C55F-4035-BB5E-6BE6B5E58D55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F95A1C24-84A8-4009-B38F-6160340AA2A4}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{521627CE-14A0-4BAF-88EB-1F7C7E499A71}.Debug|Win32.ActiveCfg = Debug|Win32
+		{521627CE-14A0-4BAF-88EB-1F7C7E499A71}.Debug|Win32.Build.0 = Debug|Win32
+		{521627CE-14A0-4BAF-88EB-1F7C7E499A71}.Release|Win32.ActiveCfg = Release|Win32
+		{521627CE-14A0-4BAF-88EB-1F7C7E499A71}.Release|Win32.Build.0 = Release|Win32
+		{F41FD4B8-C55F-4035-BB5E-6BE6B5E58D55}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F41FD4B8-C55F-4035-BB5E-6BE6B5E58D55}.Debug|Win32.Build.0 = Debug|Win32
+		{F41FD4B8-C55F-4035-BB5E-6BE6B5E58D55}.Release|Win32.ActiveCfg = Release|Win32
+		{F41FD4B8-C55F-4035-BB5E-6BE6B5E58D55}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

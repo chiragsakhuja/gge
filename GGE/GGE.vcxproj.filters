@@ -21,9 +21,15 @@
     <ClCompile Include="src\gl3w.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

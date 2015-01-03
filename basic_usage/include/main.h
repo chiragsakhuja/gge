@@ -1,4 +1,5 @@
 #include "game.h"
+#include "shader.h"
 
 class basic_usage : public gge::game
 {
@@ -8,8 +9,8 @@ public:
 	void shutdown();
 
 private:
-	GLuint rendering_program;
 	GLuint vertex_array_object;
+	Shader *program;
 
-	GLuint compile_shaders();
+	void setupShaders();
 };

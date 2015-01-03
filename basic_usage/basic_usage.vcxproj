@@ -80,6 +80,13 @@
   <ItemGroup>
     <ClInclude Include="include\main.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="res\shaders\basic.frag" />
+    <None Include="res\shaders\basic.geom" />
+    <None Include="res\shaders\basic.tcont" />
+    <None Include="res\shaders\basic.teval" />
+    <None Include="res\shaders\basic.vert" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

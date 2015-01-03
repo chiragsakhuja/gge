@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{9d53ce9a-e5db-4e4e-8550-751976aa4743}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
@@ -23,5 +26,22 @@
     <ClInclude Include="include\main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\shaders\basic.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="res\shaders\basic.teval">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="res\shaders\basic.tcont">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="res\shaders\basic.geom">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="res\shaders\basic.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
   </ItemGroup>
 </Project>

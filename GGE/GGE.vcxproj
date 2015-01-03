@@ -13,9 +13,11 @@
   <ItemGroup>
     <ClCompile Include="src\game.cpp" />
     <ClCompile Include="src\gl3w.c" />
+    <ClCompile Include="src\shader.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\game.h" />
+    <ClInclude Include="include\shader.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{521627CE-14A0-4BAF-88EB-1F7C7E499A71}</ProjectGuid>
